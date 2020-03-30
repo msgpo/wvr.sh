@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +7,3 @@
     <link rel="stylesheet" href="/res/main.css">
     <title>wvr.sh</title>
 </head>
-<a name="wvr.sh"></a>
-<h1>wvr.sh</h1>
-
-<a name="hello-and-welcome-to-my-site"></a>
-<h3>hello and welcome to my site</h3>
-
-<p>hi</p>
