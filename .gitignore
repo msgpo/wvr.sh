@@ -1,0 +1,15 @@
+www
+a.out
+*~*
+*.tar.*
+*.tgz
+*.o
+*.out
+*.bak
+*.bk
+*.cache
+*.tmp
+*.temp
+*.rej
+*.orig
+*.core
