@@ -1,5 +1,5 @@
-# wvr.sh
+### Welcome to my home on the internet.
 
-### hello and welcome to my site
+Working on tech and things.
 
-hi
+![catgif](res/reactorcat.gif)
