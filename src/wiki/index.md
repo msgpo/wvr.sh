@@ -1,7 +1,10 @@
-# Personal Wiki
+## Personal Vim Wiki
 
-*(WIP, initial stages / testing)*
-
-## Networking
+#### Networking
 
 * [IDS_Rules](networking/IDS_rules)
+ 
+#### Uni Classes
+
+* [Operating Systems](classes/operating_systems)
+* [Malware Analysis](classes/malware_analysis)

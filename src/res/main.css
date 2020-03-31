@@ -26,6 +26,24 @@ code {
     background: #000000;
 }
 
+/* formatting for tables */
+tr {
+    font: 0.9em/1.0 monospace;
+    font-family: monospace;
+    color: #000000;
+    background: #adbabf;
+    padding: 0 .4em;
+    max-width: 40em;
+}
+td {
+    font: 0.9em/1.0 monospace;
+    font-family: monospace;
+    color: #000000;
+    background: #d3d3d3;
+    padding: 0 .4em;
+    max-width: 40em;
+}
+
 /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
 /* Links */
 /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */

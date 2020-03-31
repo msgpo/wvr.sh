@@ -1,3 +1,3 @@
 # blog
 
-sometime stuff will be here
+#### *Aphorisms about life and tech*
