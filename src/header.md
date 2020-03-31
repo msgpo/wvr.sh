@@ -1,3 +1,3 @@
-**wvr.sh** » [home](/) [blog](/blog) [projects](/projects) [rice](/rice) [about](/about)
+**wvr.sh** » [home](/) [blog](/blog) [projects](/projects) [wiki](/wiki) [rice](/rice)
 
 -------

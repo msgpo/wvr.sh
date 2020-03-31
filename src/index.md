@@ -3,3 +3,5 @@
 Working on tech and things.
 
 ![catgif](res/reactorcat.gif)
+
+Available for hire.

@@ -1,3 +1,3 @@
 -------
 
-**wvr.sh** » [github](https://github.com/mitchweaver) [contact](mailto:mitch@wvr.sh) [source](https://github.com/mitchweaver/wvr.sh)
+**wvr.sh** » [about](/about) [contact](mailto:mitch@wvr.sh) [github](https://github.com/mitchweaver) [source](https://github.com/mitchweaver/wvr.sh)

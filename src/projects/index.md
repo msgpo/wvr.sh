@@ -35,7 +35,8 @@ However, my views toward static linking have changed drastically since this proj
 
 ![discline_logo](https://github.com/mitchweaver/Discline/raw/master/res/logo/logo_small.png)
 
-Python discord TUI client, no longer maintained.  
+Python discord TUI client, no longer maintained.
+
 I also now do [not](https://stallman.org/discord.html) recommend the use of [discord](https://spyware.neocities.org/articles/discord.html).
 
 ## 2\. [metal-archives](https://github.com/mitchweaver/metal-archives)
