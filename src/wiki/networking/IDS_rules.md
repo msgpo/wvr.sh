@@ -1,6 +1,6 @@
 # IDS Rules 
 
-*<sub>(Snort / Suricata / etc)</sub>*
+##### *(Snort / Suricata / etc)*
 
 ### Example rule
 
@@ -48,3 +48,26 @@ alert tcp SOURCE_NET 23 -> EXTERNAL_NET any
 * packets must flow in the direction
 * almost always will be `->` (left to right)
 * but can also be bi-directional, `<>`
+
+-------
+
+## Contents of parameters
+
+### Message
+
+`msg: "GPL TELNET Bad Login";`
+
+* Descriptive message
+* Perhaps type of malware found, DDOS, etc
+
+### Flow
+
+`flow:from_server,established`
+
+* Describes from what location a rule should apply
+* More than just source and dest ip
+* Server here is the *responder*
+* `to_server`   === `from_client`
+* `from_server` === `to_client`
+* Most **TCP** rules will also use `established`
+* **UDP** rules will just state the direction

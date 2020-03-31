@@ -26,6 +26,11 @@ add() {
 }
 
 build() {
+    # store header and footer as not to need
+    # to reconvert them for every file
+    hdr=$(md2html $SRC/header.md)
+    ftr=$(md2html $SRC/footer.md)
+
     find $SRC -type f -name '*.md' | \
     while read -r file ; do
         # trim the src dir from filename
@@ -47,9 +52,9 @@ build() {
             # use filename as page title
             printf '<title>%s</title>\n</head>' ${file%/*}
 
-            add header "$(md2html $SRC/header.md)"
+            add header "$hdr" 
             add body   "$(md2html $SRC/$file.md)"
-            add footer "$(md2html $SRC/footer.md)"
+            add footer "$ftr"
 
             # close document
             printf '%s\n' '</html>'
@@ -66,10 +71,6 @@ copy() {
     rsync -rvhtuc --progress --delete $OUT/ $HOST:$REMOTE_DIR
 }
 
-main() {
-    init
-    build
-    copy
-}
-
-main
+init
+build
+copy
