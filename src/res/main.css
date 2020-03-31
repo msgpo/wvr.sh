@@ -6,7 +6,7 @@ body {
     color: #adbabf;
     font: 1.5em/1.62 sans-serif;
     font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.4;
     zoom: 100%;
 }
 header {
@@ -18,8 +18,16 @@ footer {
     font-family: monospace;
 }
 
+/* css class given to `code` blocks */
+code {
+    font: 1em/1.1 monospace;
+    font-family: monospace;
+    color: #4f8a2e;
+    background: #000000;
+}
+
 /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
-// Links
+/* Links */
 /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
 /* remove underline on links */
 a {
