@@ -1,4 +1,4 @@
-### Welcome to my home on the internet.
+**Welcome to my home on the internet.**
 
 Working on tech and things.
 

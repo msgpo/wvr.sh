@@ -1,3 +1,3 @@
-**wvr.sh** » [home](index.html) [about](about.html)
+**wvr.sh** » [home](/) [blog](/blog) [rice](/rice) [about](/about)
 
 -------

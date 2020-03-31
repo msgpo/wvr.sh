@@ -21,21 +21,22 @@ build() {
     find $SRC -type f -name *.md ! -path *boiler* | \
     while read -r file ; do
         file=${file#$SRC/}
+        mkdir -p $OUT/${file%/*}
         file=${file%.md}
+        {
+            cat $SRC/boiler/doctype
+            cat $SRC/boiler/head
 
-        cat $SRC/boiler/doctype >>$OUT/$file.html
-        cat $SRC/boiler/head    >>$OUT/$file.html
+            # use first line of .md file as page title
+            printf '<title>%s</title>\n</head>' ${file%/*}
 
-        # use first line of .md file as page title
-        read -r title <$SRC/$file.md
-        title=${title##*#}
-        printf '<title>%s</title>\n' "$title" >>$OUT/$file.html
+            printf '<header><p>%s</p></header>\n' "$(md2html $SRC/boiler/header.md)"
+            printf '<body>%s</body>\n' "$(md2html $SRC/$file.md)"
+            printf '<footer><p>%s</p></footer>\n' "$(md2html $SRC/boiler/footer.md)"
 
-        >>$OUT/$file.html printf \
-            '%s</head>\n<body>%s</body>\n<footer>%s</footer>\n</html>\n'  \
-            "$(md2html $SRC/boiler/header.md)" \
-            "$(md2html $SRC/$file.md)" \
-            "$(md2html $SRC/boiler/footer.md)"
+            # close
+            echo '</html>\n'
+        } >>$OUT/$file.html
     done
 }
 

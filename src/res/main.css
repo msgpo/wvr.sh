@@ -2,13 +2,43 @@ body {
     margin: 1em auto;
     max-width: 40em;
     padding: 0 .62em;
-    background: #09150B;
-	color: #AABFAD;
+    background: #0f1313;
+    color: #adbabf;
     font: 1.5em/1.62 sans-serif;
-    font-family: helvetica, arial,sans-serif;
-	line-height: 1.5;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
     zoom: 100%;
 }
-footer {
-    font: 0.9em/1.5 sans-serif;
+header {
+    font: 0.8em/0.9 monospace;
+    font-family: monospace;
 }
+footer {
+    font: 0.8em/0.9 monospace;
+    font-family: monospace;
+}
+
+/* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
+// Links
+/* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
+/* remove underline on links */
+a {
+    text-decoration: none;
+} 
+/* unvisited link */
+a:link {
+  color: #4f8a2e;
+}
+/* visited link */
+a:visited {
+  color: #bb513e;
+}
+/* mouse over link */
+a:hover {
+  color: lightgreen;
+}
+/* selected link */
+a:active {
+  color: gray;
+} 
+/* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
