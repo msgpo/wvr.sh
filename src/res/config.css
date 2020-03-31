@@ -1,0 +1,27 @@
+html {
+    --max-width: 40em;
+    --zoom: 100%;
+    --line-height: 1.5;
+    --link-decoration: none;
+
+    --varfont: sans-serif;
+    --fixfont: monospace;
+    --varfont-size: 1.5em;
+    --fixfont-size: 0.8em;
+
+    --fg: #000000;
+    --bg: #eeeeee;
+    --bg-img: none;
+
+    --link-color: #0000FF;
+    --active-color: #FF0000;
+    --visited-color: #551A8B;
+    --hover-color: #a9be3f;
+
+    --codebg: #000000;
+    --codefg: #4f8a2e;
+
+    --table-fg: #000000;
+    --table-header-bg: #adbabf;
+    --table-content-bg: #d3d3d3;
+}

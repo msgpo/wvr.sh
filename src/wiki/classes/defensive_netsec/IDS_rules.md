@@ -71,3 +71,44 @@ alert tcp SOURCE_NET 23 -> EXTERNAL_NET any
 * `from_server` === `to_client`
 * Most **TCP** rules will also use `established`
 * **UDP** rules will just state the direction
+
+### Rule Headers
+
+* Do not affect how the packets are matched
+* Messages to describe the rule
+* Aid the analyst, provide more information
+
+*<sub>Examples:</sub>*
+
+1. **Classtype** - (Optional)
+2. **SID** - Signature Identifier (Required)
+3. **Rev** - Revision of the rule (Optional)
+4. **Metadata** - any key/value pair you want
+
+### Content
+
+* Unique packet contents
+* Can have multiple content sections
+* Can be string based and/or hex based
+
+### Content Modifiers
+
+Many options:
+
+1. `Nocase`
+2. `Distance`
+3. `Dsize`
+4. `lsdataat`
+
+<sub>*Example:*</sub>
+
+```
+alert tcp $HOME_NET 23 -> $EXTERNAL_NET any
+(msg:"Some Message"; flow:from_server,established;
+content:"A string to SeArCh for"; nocase; fast_pattern:only;
+classtype:bad-unknown; sid:999999999; rev:9;
+metadata:created_at 2000_01_01, updated_at 2001_01_01;)
+```
+
+Here we search for a packet at a certain date,
+containing a certain string, case-insensitive.

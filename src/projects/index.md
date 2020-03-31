@@ -1,31 +1,25 @@
 # projects
 
--------
+### 2020
 
-## ongoing
+## 1\. [sssg](https://github.com/mitchweaver/sssg)
 
-## 1\. [bin](https://github.com/mitchweaver/bin)
+An extremely simple POSIX sh static site generator.
 
-Many people have found my `~/bin` useful, which contains scripts I use every day.
-
-## 2\. [suckless](https://github.com/mitchweaver/suckless)
-
-I am a big fan of [suckless](http://suckless.org) software and have written several patches for them.
-
--------
+It is what powers [this](https://github.com/mitchweaver/wvr.sh) site!
 
 ### 2019
 
-## 1\. bonsai *(discontinued)*
+## 1\. [bonsai](https://github.com/mitchweaver/bonsai) *(discontinued)*
 
 ![bonsai_logo](https://github.com/bonsai-linux/bonsai/raw/master/res/bonsai.png)
 
-`bonsai` was a tiny Linux distribution based on [musl-libc](http://musl-libc.org) and static linking.
+[Bonsai](https://github.com/mitchweaver/bonsai) is a tiny Linux distribution based on [musl-libc](http://musl-libc.org) and static linking.
 
-It was an experiment in extreme minimalism with focus on reducing [moving parts](https://github.com/bonsai-linux/bonsai#core-philosophy) and
-automating the task of chroot sandboxing via not necessitating copying of libraries for binaries.
+It was an experiment in extreme minimalism with focus on 
+reducing [moving parts](https://github.com/bonsai-linux/bonsai#core-philosophy) and automating the task of chroot sandboxing.
 
-However, my views toward static linking have changed drastically since this project.
+However, my views toward static linking have changed dramatically since this project.
 
 -------
 
@@ -35,11 +29,13 @@ However, my views toward static linking have changed drastically since this proj
 
 ![discline_logo](https://github.com/mitchweaver/Discline/raw/master/res/logo/logo_small.png)
 
-Python discord TUI client, no longer maintained.
+Python discord [TUI](https://raw.githubusercontent.com/mitchweaver/Discline/master/res/screenshots/screenshot_main.png) client, no longer maintained.
 
-I also now do [not](https://stallman.org/discord.html) recommend the use of [discord](https://spyware.neocities.org/articles/discord.html).
+I also [no longer](https://spyware.neocities.org/articles/discord.html) recommend the use [discord](https://stallman.org/discord.html).
 
 ## 2\. [metal-archives](https://github.com/mitchweaver/metal-archives)
+
+![ma_releases_demo](https://raw.githubusercontent.com/mitchweaver/metal-archives/master/res/releases.png)
 
 Various web scraping utilities for the [Encyclopaedia Metallum](http://metal-archives.com).
 
