@@ -4,6 +4,8 @@
 
 ## 1\. [sssg](https://github.com/mitchweaver/sssg)
 
+![sssg_logo.png](/res/projects/sssg.png)
+
 An extremely simple POSIX sh static site generator.
 
 It is what powers [this](https://github.com/mitchweaver/wvr.sh) site!
@@ -31,7 +33,7 @@ However, my views toward static linking have changed dramatically since this pro
 
 Python discord [TUI](https://raw.githubusercontent.com/mitchweaver/Discline/master/res/screenshots/screenshot_main.png) client, no longer maintained.
 
-I also [no longer](https://spyware.neocities.org/articles/discord.html) recommend the use [discord](https://stallman.org/discord.html).
+I also [no longer](https://spyware.neocities.org/articles/discord.html) recommend the use of [discord](https://stallman.org/discord.html).
 
 ## 2\. [metal-archives](https://github.com/mitchweaver/metal-archives)
 

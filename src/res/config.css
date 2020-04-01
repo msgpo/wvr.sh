@@ -1,25 +1,25 @@
 html {
     --max-width: 40em;
-    --zoom: 100%;
+    --zoom: 120%;
     --line-height: 1.5;
     --link-decoration: none;
 
     --varfont: sans-serif;
     --fixfont: monospace;
-    --varfont-size: 1.5em;
+    --varfont-size: 1.0em;
     --fixfont-size: 0.8em;
 
-    --fg: #000000;
+    --fg: #111111;
     --bg: #eeeeee;
     --bg-img: none;
 
-    --link-color: #0000FF;
-    --active-color: #FF0000;
-    --visited-color: #551A8B;
-    --hover-color: #a9be3f;
+    --link-color: #667292;
+    --active-color: #86bf3f;
+    --visited-color: #b9b0b2;
+    --hover-color: #82b74b;
 
-    --codebg: #000000;
-    --codefg: #4f8a2e;
+    --codefg: #111111;
+    --codebg: #f4f4f2;
 
     --table-fg: #000000;
     --table-header-bg: #adbabf;

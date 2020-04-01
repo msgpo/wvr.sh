@@ -7,6 +7,7 @@ all: build copy
 
 build:
 	sssg -s ${SRC} -o ${OUT}
+	cp -rf ${SRC}/start ${OUT}/
 
 copy:
 	rsync -rvhtuc --progress --delete ${OUT}/ ${HOST}:${REMOTE_DIR}
