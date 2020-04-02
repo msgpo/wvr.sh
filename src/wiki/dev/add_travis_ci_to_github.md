@@ -2,8 +2,8 @@
 
 ## If you don't already have an account:
 
-1. Sign up for Travis at https://travis-ci.org
-2. Click 'Sign up with GitHub' to use your GitHub account.
+1. Sign up for Travis at <https://travis-ci.org>
+2. Click *Sign up with GitHub* to use your GitHub account.
 
 ## Enable Travis for your repositories
 
@@ -16,10 +16,8 @@ Perform whatever task you need here, travis will have most tools installed alrea
 
 #### Example for a POSIX sh script:
 
-```
-script:
-  - shellcheck -s sh your_script.sh
-```
+   script:
+     - shellcheck -s sh your_script.sh
 
 ## Add a build badge
 
@@ -27,10 +25,10 @@ This is a handle tool to show if your build is passing from the repo `README.md`
 
 #### To do this:
 
-1. Go to the repo on [travis-ci.org](http://travis-ci.org) and click on the similar looking badge.
-2. Select 'Markdown' from the dropdown menu
+1. Go to the repo on <http://travis-ci.org> and click on the similar looking badge.
+2. Select *Markdown* from the dropdown menu
 3. Copy paste to the top of your repo's `README.md`
 
 #### Example:
 
-[![Build Status](https://travis-ci.com/mitchweaver/sssg.svg?branch=master)](https://travis-ci.com/mitchweaver/sssg)
+   [![Build Status](https://travis-ci.com/mitchweaver/sssg.svg?branch=master)](https://travis-ci.com/mitchweaver/sssg)

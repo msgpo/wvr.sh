@@ -10,6 +10,8 @@ An extremely simple POSIX sh static site generator.
 
 It is what powers [this](https://github.com/mitchweaver/wvr.sh) site!
 
+-------
+
 ### 2019
 
 ## 1\. [bonsai](https://github.com/mitchweaver/bonsai) *(discontinued)*
