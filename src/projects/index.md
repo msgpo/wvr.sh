@@ -1,4 +1,4 @@
-# projects
+# # projects
 
 ### 2020
 
@@ -10,7 +10,7 @@ An extremely simple POSIX sh static site generator.
 
 It is what powers [this](https://github.com/mitchweaver/wvr.sh) site!
 
--------
+- - -
 
 ### 2019
 
@@ -25,7 +25,7 @@ reducing [moving parts](https://github.com/bonsai-linux/bonsai#core-philosophy) 
 
 However, my views toward static linking have changed dramatically since this project.
 
--------
+- - -
 
 ### 2018
 
@@ -45,7 +45,7 @@ Various web scraping utilities for the [Encyclopaedia Metallum](http://metal-arc
 
 Started out as functions for an IRC bot but since they are so handy I gave them their own project.
 
-------
+- - -
 
 ### 2016
 

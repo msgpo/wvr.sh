@@ -15,13 +15,13 @@ Some European governments have even [banned its use](https://metro.co.uk/2020/03
 
 Elon Musk recently banned its use [within SpaceX](https://reuters.com/article/us-spacex-zoom-video-commn/elon-musks-spacex-bans-zoom-over-privacy-concerns-memo-idUSKBN21J71H).
 
-Zoom has also been subject to a [number](https://www.cvedetails.com/vulnerability-list/vendor_id-2159/Zoom.html) of severe [privacy](https://nakedsecurity.sophos.com/2019/07/09/zoom-flaw-could-force-mac-users-into-meetings-expose-video-feed) [exploits](https://www.theverge.com/2020/1/28/21082331/zoom-vulnerability-hacker-eavesdrop-security-google-hangouts-skype-checkpoint)
+Zoom has also been subject to a [number](https://www.cvedetails.com/vulnerability-list/vendor_id-2159/Zoom.html) of severe [privacy](https://nakedsecurity.sophos.com/2019/07/09/zoom-flaw-could-force-mac-users-into-meetings-expose-video-feed) [exploits](https://www.theverge.com/2020/1/28/21082331/zoom-vulnerability-hacker-eavesdrop-security-google-hangouts-skype-checkpoint).
 
 Instead, I encourage you to use a privacy-respecting open source 
 alternative such as [Jitsi](https://jitsi.org), [Wire](https://wire.com/en), [8x8](https://8x8.vc), [NextCloud](https://nextcloud.com/talk) or many others,
 and petition your community to switch to them as well.
 
-------
+- - -
 
 #### Recommended reading:
 
