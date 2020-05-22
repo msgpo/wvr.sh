@@ -15,7 +15,7 @@ In this post I'll lay out everything that comes to mind as to
 how I despise this archaic versioning system and hopefully persuade
 you to choose something else for your next project.
 
-Most of this will be in comparison to [git](http://git-scm.com) as its what I, 
+Most of this will be in comparison to [git](http://git-scm.com) as it's what I, 
 *(and probably you as well)*, am most familiar with.
 
 ## Why CVS Sucks.
@@ -102,7 +102,7 @@ introduce [problems of its own](https://kbyanc.blogspot.com/2010/04/subversion-s
 
 ## The Alternative
 
-A promising alternative being developed, with a terrible pop-culture reference name, is [Game Of Trees](https://gameoftrees.org/).
+A promising alternative being developed, *with a terrible pop-culture-reference name*, is [Game Of Trees](https://gameoftrees.org/).
 
 `got` is intended to be a replacement for CVS targeted [specifically](http://gameoftrees.org/faq.html#openbsd) at OpenBSD developers.
 
@@ -158,3 +158,4 @@ Time will tell whether OpenBSD decides to adopt it.
 * [Bye bye CVS, I've been Subverted](http://www.oreillynet.com/onlamp/blog/2004/09/byebye_cvs_ive_been_subverted.html)
 * [Subversion sucks, get over it](http://andreasjacobsen.com/2008/10/26/subversion-sucks-get-over-it/)
 * [Subversion - Considered Harmful](http://harmful.cat-v.org/software/svn/)
+* [OpenBSD developer jcs stating he and others use git for local changes](https://old.reddit.com/r/openbsd/comments/dtac4o/fastest_way_to_get_into_openbsd_driver_development/f6wd1r1/)

@@ -1,2 +1,2 @@
-**wvr.sh** » [home](/) [blog](/blog) [projects](/projects) [wiki](/wiki) [rice](/rice)
+**wvr.sh** » [home](/) [github](https://github.com/mitchweaver)
 - - -
